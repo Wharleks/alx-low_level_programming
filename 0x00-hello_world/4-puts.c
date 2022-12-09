@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * Print: Programming is like building a multilingual puzzle
  * Returns: 0 if properly exited
