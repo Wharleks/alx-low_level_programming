@@ -9,7 +9,7 @@
 int main(void)
 {
 int i;
-unsigned long int j, k, n, sum;
+unsigned long int j, k, next, sum;
 
 j = 1;
 k = 2;
@@ -21,9 +21,9 @@ if (j < 4000000 && (j % 2) == 0)
 {
 sum = sum + j;
 }
-n = j + k;
+next = j + k;
 j = k;
-k = n;
+k = next;
 }
 
 printf("%lu\n", sum);
