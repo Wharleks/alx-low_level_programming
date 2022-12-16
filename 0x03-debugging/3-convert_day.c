@@ -3,7 +3,8 @@
 /**
  * convert_day - converts day of the month to day of year, without accounting for leap year
  * @month: month in number format
- * @day: day of the month
+ * @day: day of the mont
+ * Return: day of year
  */
 
 int convert_day(int month, int day)
