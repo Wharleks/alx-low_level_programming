@@ -1,13 +1,12 @@
-#include <stdio>
+#include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
 
 /**
-*main - assign a randome number to a variable
-* it executes and print it
-*
-* Return: Always 0 (Success)
-*/
+ * main - Entry point
+ *
+ * Return: 0 (Success)
+ */
 
 int main(void)
 {
@@ -20,6 +19,6 @@ printf("%d is positive\n", n);
 else if (n == 0)
 printf("%d is zero\n", n);
 else if (n < 0)
-printf("%d is negative\n", n)a;
+printf("%d is negative\n", n);
 return (0);
 }
