@@ -14,21 +14,21 @@
 
 char *argstostr(int ac, char **av)
 {
-	int i, j, k, lenght;
+	int i, j, k, length;
 	char *str;
 
 	if (ac == 0 || av == NULL)
 		return (NULL);
 
-	/*find lenght of vector + '\0' which makes it a 2d array*/
-	lenght = 0;
+	/*find length of vector + '\0' which makes it a 2d array*/
+	length = 0;
 	for (i = 0; i < ac; i++)
 	{
 		for (j = 0; av[i][j] != '\0'; j++)
-			lenght++;
-		lenght++;
+			length++;
+		length++;
 	}
-	str = malloc((lenght + 1) * sizeof(char));
+	str = malloc((length + 1) * sizeof(char));
 	if (str == NULL)
 		return (NULL);
 	k = 0;
